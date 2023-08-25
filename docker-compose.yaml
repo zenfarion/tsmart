@@ -1,8 +1,8 @@
 version: '3'
 services:
   tsmart:
-    container_name: tsmart
-    image: britkat/tsmart:0.9
+    container_name: tsmart_test
+    image: zenfarion/tsmart:0.9
     restart: unless-stopped
     environment:
       - IP_Address=xx.xx.xx.xx
