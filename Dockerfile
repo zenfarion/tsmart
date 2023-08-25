@@ -17,7 +17,7 @@ RUN pip install -r requirements.txt
 COPY TSmart TSmart
 COPY startup.py .
 
-ENV IP_Address="192.168.2.142"
+ENV IP_Address="192.168.1.123"
 ENV self_run_timer=10
 ENV Log_Level="Error"
 ENV Debug_File_Location=""
