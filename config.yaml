@@ -1,8 +1,8 @@
 name:  "TSmart_test"
 description:  "UDP based control of the T-Smart water heater thermostats"
-version:  "0.9"
+version:  "test"
 image: zenfarion/tsmart
-slug:  "tsmart_test"
+slug:  "tsmart"
 init:  true
 map:
   - config:rw
