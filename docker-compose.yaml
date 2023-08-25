@@ -1,6 +1,6 @@
 version: '3'
 services:
-  tsmart:
+  tsmart_test:
     container_name: TSmart
     image: zenfarion/TSmart:0.9
     restart: unless-stopped
