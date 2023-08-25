@@ -1,13 +1,13 @@
-name:  "TSmart"
+name:  "TSmart_test"
 description:  "UDP based control of the T-Smart water heater thermostats"
 version:  "0.9"
-image: britkat/tsmart
-slug:  "tsmart"
+image: xenfarion/tsmart
+slug:  "tsmart_test"
 init:  true
 map:
   - config:rw
 boot:  auto
-url:  https://github.com/britkat1980/tsmart
+url:  https://github.com/zenfarion/tsmart
 legacy:  true
 arch: 
   - aarch64
@@ -17,12 +17,12 @@ arch:
   - i386
 host_network: true
 options:
-  IP_Address: "192.168.2.142"
+  IP_Address: "192.168.1.123"
   self_run_timer: 10
   Log_Level: "Error"
   Debug_File_Location: ""
   MQTT_Output: True
-  MQTT_Address: "core_mosquitto"
+  MQTT_Address: "core-mosquitto"
   MQTT_Username: ""
   MQTT_Password: ""
   MQTT_Topic: "TSmart"
