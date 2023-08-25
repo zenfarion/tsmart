@@ -2,7 +2,7 @@ version: '3'
 services:
   tsmart_test:
     container_name: TSmart_test
-    image: zenfarion/TSmart:0.9
+    image: zenfarion/tsmart
     restart: unless-stopped
     environment:
       - IP_Address=xx.xx.xx.xx
